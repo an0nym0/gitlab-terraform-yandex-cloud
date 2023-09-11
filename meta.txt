@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: iivanov
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAvNJxS8+fEA25fKVkBDoNdT0seXq4yvQJWV6cXIU1Xp iivanov@ivan-ivanov-mac
